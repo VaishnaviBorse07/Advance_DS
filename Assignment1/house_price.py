@@ -1,13 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 16 11:54:29 2026
-
-@author: shrad
-
-House Price Prediction using Artificial Neural Network (ANN)
-"""
-
-
 # Import Libraries
 
 import pandas as pd
@@ -27,7 +17,7 @@ tf.keras.backend.clear_session()
 
 # Step 1: Load Dataset
 
-df = pd.read_csv(r"C:\Users\shrad\Downloads\data.csv")
+df = pd.read_csv("data.csv")
 
 print("First 5 Rows:")
 print(df.head())
